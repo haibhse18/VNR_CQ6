@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Newsreader:opsz,wght@6..72,500;6..72,700&family=JetBrains+Mono:wght@400;500;700&display=swap');
 
 :root {
-  --bg: #f7f6f3;
-  --frame-bg: #fbfbfa;
-  --line: #eaeaea;
-  --heading: #111111;
-  --body-text: #2f3437;
-  --subtle: #787774;
-  --soft: #f9f9f8;
-  --red-bg: #fdebec;
-  --red-text: #9f2f2d;
-  --blue-bg: #e1f3fe;
-  --blue-text: #1f6c9f;
-  --green-bg: #edf3ec;
-  --green-text: #346538;
-  --yellow-bg: #fbf3db;
-  --yellow-text: #956400;
+  --bg: #ede2cf;
+  --frame-bg: #f7efe0;
+  --line: #d8c6ab;
+  --heading: #2d1d13;
+  --body-text: #4a372a;
+  --subtle: #7c6655;
+  --soft: #efe3cd;
+  --red-bg: #e6d1bd;
+  --red-text: #7f3f23;
+  --blue-bg: #e9dcc5;
+  --blue-text: #6e4a2f;
+  --green-bg: #e4d8c2;
+  --green-text: #5d4b34;
+  --yellow-bg: #eadabf;
+  --yellow-text: #71552f;
   --font-body: 'Be Vietnam Pro', 'Segoe UI', sans-serif;
   --font-heading: 'Newsreader', Georgia, serif;
   --font-mono: 'JetBrains Mono', 'Courier New', monospace;
@@ -31,9 +31,9 @@ body {
   font-family: var(--font-body);
   line-height: 1.6;
   background:
-    radial-gradient(circle at 8% 8%, rgba(225, 243, 254, 0.52), transparent 34%),
-    radial-gradient(circle at 94% 14%, rgba(253, 235, 236, 0.52), transparent 32%),
-    radial-gradient(circle at 12% 92%, rgba(251, 243, 219, 0.5), transparent 34%),
+    radial-gradient(circle at 8% 8%, rgba(199, 167, 129, 0.36), transparent 34%),
+    radial-gradient(circle at 94% 14%, rgba(166, 130, 98, 0.3), transparent 32%),
+    radial-gradient(circle at 12% 92%, rgba(220, 194, 153, 0.3), transparent 34%),
     var(--bg);
   color: var(--body-text);
   scroll-behavior: smooth;

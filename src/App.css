@@ -38,7 +38,7 @@
   right: -130px;
   top: -130px;
   border-radius: 9999px;
-  background: radial-gradient(circle, rgba(225, 243, 254, 0.65) 0%, rgba(225, 243, 254, 0) 72%);
+  background: radial-gradient(circle, rgba(188, 151, 114, 0.42) 0%, rgba(188, 151, 114, 0) 72%);
   pointer-events: none;
 }
 
@@ -173,11 +173,11 @@ main {
 }
 
 .slide:nth-of-type(odd)::before {
-  background: rgba(31, 108, 159, 0.22);
+  background: rgba(125, 83, 48, 0.28);
 }
 
 .slide:nth-of-type(even)::before {
-  background: rgba(159, 47, 45, 0.18);
+  background: rgba(93, 65, 38, 0.22);
 }
 
 .slide>p {
@@ -349,7 +349,7 @@ ul {
 
 .deep-stack .card-block {
   padding: 1.25rem;
-  border-left: 4px solid rgba(31, 108, 159, 0.35);
+  border-left: 4px solid rgba(125, 83, 48, 0.36);
 }
 
 .final-thesis {
