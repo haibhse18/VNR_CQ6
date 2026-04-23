@@ -7,83 +7,29 @@ import hiepDinhParis from './image/hiepdinhparis.jpg'
 import keHoachVietNamHoa from './image/kehoachvietnamhoachientranh.jpg'
 
 const phaseOneResults = [
-  'Ở miền Nam: Đập tan các cuộc phản công mùa khô của Mỹ và chính quyền Sài Gòn.',
-  'Đỉnh cao là Tổng tiến công và nổi dậy Tết Mậu Thân 1968, giáng đòn mạnh vào ý chí xâm lược của Mỹ.',
-  'Mỹ buộc phải “phi Mỹ hóa” chiến tranh, ngừng ném bom miền Bắc và chấp nhận đàm phán tại Paris.',
-  'Ở miền Bắc: Đánh bại chiến tranh phá hoại lần thứ nhất, bảo vệ vững chắc hậu phương và chi viện tối đa cho tiền tuyến miền Nam.',
+  '1954 - 1965: chuyển thế chiến lược, từ Đồng Khởi đến đánh bại “Chiến tranh đặc biệt”.',
+  '1965 - 1968: chống “Chiến tranh cục bộ”, đỉnh cao là Tổng tiến công và nổi dậy Tết Mậu Thân 1968.',
+  '1969 - 1975: chống “Việt Nam hóa chiến tranh”, tạo bước ngoặt Điện Biên Phủ trên không 1972 và Đại thắng Mùa Xuân 1975.',
 ]
 
 const phaseTwoProcess = [
-  'Quân và dân ta liên tiếp đánh bại các cuộc hành quân lớn của địch trong chiến lược “Việt Nam hóa chiến tranh”.',
-  'Năm 1972, chiến thắng “Điện Biên Phủ trên không” đập tan cuộc tập kích B-52 của Mỹ trong 12 ngày đêm.',
-  'Thắng lợi này buộc Mỹ ký Hiệp định Paris (1/1973), rút toàn bộ quân Mỹ về nước: “Đánh cho Mỹ cút”.',
-  'Nắm bắt thời cơ chiến lược, Đảng mở Tổng tiến công và nổi dậy Mùa Xuân 1975 qua 3 chiến dịch: Tây Nguyên, Huế - Đà Nẵng, Hồ Chí Minh.',
+  'Đánh bại “Chiến tranh cục bộ” bằng thế trận chiến tranh nhân dân và đòn tâm lý Mậu Thân 1968.',
+  'Bắn rơi B-52 trong 12 ngày đêm 1972, buộc Mỹ ký Hiệp định Paris.',
+  'Tổ chức ba chiến dịch quyết định năm 1975: Tây Nguyên, Huế - Đà Nẵng, Hồ Chí Minh.',
 ]
 
 const meanings = [
-  {
-    title: 'Đối với dân tộc',
-    detail:
-      'Kết thúc thắng lợi 21 năm kháng chiến chống Mỹ và 30 năm chiến tranh giải phóng dân tộc, hoàn thành cách mạng dân tộc dân chủ nhân dân, thống nhất đất nước; đưa cả nước bước vào kỷ nguyên độc lập, tự do và đi lên chủ nghĩa xã hội.',
-  },
-  {
-    title: 'Đối với quốc tế',
-    detail:
-      'Đánh bại cuộc chiến tranh xâm lược thực dân kiểu mới quy mô lớn nhất sau Thế chiến II, làm suy yếu hệ thống đế quốc chủ nghĩa và cổ vũ mạnh mẽ phong trào giải phóng dân tộc trên toàn thế giới.',
-  },
+  'Kết thúc thắng lợi 21 năm kháng chiến chống Mỹ, thống nhất đất nước.',
+  'Mở ra kỷ nguyên hòa bình, độc lập, thống nhất và đi lên chủ nghĩa xã hội.',
+  'Làm thất bại âm mưu xâm lược kiểu mới của đế quốc Mỹ, cổ vũ phong trào giải phóng dân tộc.',
+  'Khẳng định bản lĩnh, trí tuệ và sức mạnh đoàn kết của dân tộc Việt Nam.',
 ]
 
 const lessons = [
-  'Giương cao ngọn cờ độc lập dân tộc và chủ nghĩa xã hội, kết hợp sức mạnh của cả hai miền trong một chiến lược thống nhất.',
-  'Tin tưởng và dựa vào sức mạnh của nhân dân, phát huy cao độ khối đại đoàn kết toàn dân tộc.',
-  'Phát huy sức mạnh hậu phương miền Bắc vững mạnh toàn diện, bảo đảm chi viện quyết định cho miền Nam.',
-  'Vận dụng sáng tạo phương pháp cách mạng: kết hợp chặt chẽ quân sự - chính trị - ngoại giao, thắng từng bước để tiến tới thắng lợi hoàn toàn.',
-  'Tăng cường vai trò lãnh đạo của Đảng, giữ vững tinh thần độc lập, tự chủ trong hoạch định đường lối chiến lược.',
-]
-
-const giantOpponentLessons = [
-  'Tết Mậu Thân 1968 là đòn đánh vào ý chí; ý phụ: chọn thời điểm và mục tiêu bất ngờ để tạo cú sốc chiến lược vượt giá trị quân sự thuần túy.',
-  'Điện Biên Phủ trên không 1972 chứng minh trí tuệ quyết định hiệu quả; ý phụ: ta cải tiến cách đánh, biến công nghệ cũ thành năng lực tác chiến mới.',
-  'Chiến tranh nhân dân tạo thế trận nhiều tầng; ý phụ: phối hợp hậu phương - tiền tuyến cùng quân sự, chính trị, ngoại giao để bào mòn lợi thế đối phương.',
-  'Lấy thế thắng lực là nghệ thuật tạo ưu thế tương đối; ý phụ: thắng bằng tổ chức, nhịp độ và điểm đánh đúng, không phải đọ số lượng vũ khí.',
-]
-
-const practicalApplications = [
-  'Doanh nghiệp nhỏ không đọ vốn trực diện; ý phụ: tập trung thị trường ngách và giải quyết một vấn đề khách hàng thật rõ.',
-  'Lấy nhanh thắng chậm; ý phụ: vận hành theo vòng lặp ngắn nghiên cứu - thử nghiệm - cải tiến để ra quyết định sát thực tế.',
-  'Lấy linh hoạt thắng cồng kềnh; ý phụ: cá nhân hóa dịch vụ và điều chỉnh sản phẩm nhanh theo phản hồi.',
-  'Phát triển cá nhân bằng năng lực thực chiến; ý phụ: hồ sơ dự án thật, khả năng chịu áp lực và tinh thần học liên tục tạo lợi thế bền vững.',
-]
-
-const threeTFramework = [
-  {
-    title: 'TRÍ',
-    points: [
-      'Nhận diện điểm mù: tìm đúng chỗ yếu để tạo đột phá.',
-      'Tạo bất ngờ: chọn cách làm khác lối mòn để đổi cục diện.'
-    ]
-  },
-  {
-    title: 'THẾ',
-    points: [
-      'Đi đường dài: chia mục tiêu theo chặng, tích lũy thắng lợi nhỏ.',
-      'Tái đầu tư: dùng kết quả mới để nâng cấp kỹ năng và quy trình.'
-    ]
-  },
-  {
-    title: 'TÂM',
-    points: [
-      'Giữ bản lĩnh: giữ kỷ luật, niềm tin và sức phục hồi khi gặp khó.',
-      'Kết nối hợp lực: xây mạng lưới đồng minh để khuếch đại sức mạnh.'
-    ]
-  }
-]
-
-const davidGoliathPerspective = [
-  '“Gã khổng lồ” thời nay có thể là đối thủ lớn hoặc áp lực nguồn lực; ý phụ: cần nhận diện đúng bản chất thách thức trước khi hành động.',
-  'Rào cản lớn nhất thường là tâm lý sợ thua; ý phụ: nếu thua trong tư duy, ta mất lợi thế trước khi bước vào cuộc chơi.',
-  'Không đối đầu trực diện khi chênh lệch quá lớn; ý phụ: tái định nghĩa mục tiêu và luật chơi để triệt tiêu ưu thế mặc định của đối thủ.',
-  'Nguồn lực vật chất hữu hạn; ý phụ: sáng tạo, tổ chức và ý chí có thể tích lũy để tạo bước ngoặt dài hạn.',
+  'Giữ vững mục tiêu độc lập dân tộc gắn với chủ nghĩa xã hội.',
+  'Phát huy sức mạnh nhân dân và khối đại đoàn kết toàn dân.',
+  'Kết hợp quân sự, chính trị, ngoại giao linh hoạt, sáng tạo.',
+  'Kiên trì tích lũy lực lượng, chớp thời cơ để giành thắng lợi quyết định.',
 ]
 
 function App() {
@@ -112,16 +58,106 @@ function App() {
           </div>
         </dl>
         <nav className="topic-nav" aria-label="Điều hướng nhanh nội dung">
+          <a href="#lich-su-dau-tranh">Phần 1 lịch sử đấu tranh</a>
           <a href="#tong-quan">Tổng quan</a>
           <a href="#chien-tranh-cuc-bo">Chiến tranh cục bộ</a>
           <a href="#viet-nam-hoa-va-dai-thang">Việt Nam hóa và đại thắng</a>
           <a href="#y-nghia-va-bai-hoc">Ý nghĩa và bài học</a>
           <a href="#ket-luan">Kết luận</a>
-          <a href="#chu-de-bo-sung">Chủ đề bổ sung</a>
         </nav>
       </header>
 
       <main>
+        <section className="slide" id="lich-su-dau-tranh">
+          <p className="section-code">
+            <kbd>PHẦN 1</kbd> <samp>[ LỊCH SỬ ĐẤU TRANH 1954 - 1975 ]</samp>
+          </p>
+          <h2>PHẦN 1: LỊCH SỬ ĐẤU TRANH CỦA CÁCH MẠNG VIỆT NAM (1954 - 1975)</h2>
+          <p>
+            (Dựa trên nền tảng Giáo trình Lịch sử Đảng Cộng sản Việt Nam)
+          </p>
+          <p>
+            Sau Hiệp định Genève (1954), đất nước Việt Nam tạm thời bị chia cắt làm
+            hai miền với hai chế độ chính trị khác nhau. Kẻ thù của cách mạng lúc
+            này là đế quốc Mỹ - siêu cường số 1 thế giới về kinh tế và quân sự. Đối
+            mặt với “gã khổng lồ” này, Đảng đã hoạch định đường lối giương cao ngọn
+            cờ độc lập dân tộc và chủ nghĩa xã hội, tiến hành đồng thời hai chiến
+            lược cách mạng ở hai miền.
+          </p>
+
+          <h3>1. Giai đoạn 1954 - 1965: Chuyển thế chiến lược</h3>
+          <p>
+            Từ năm 1954, Mỹ hất cẳng Pháp, lập nên chính quyền tay sai Ngô Đình
+            Diệm nhằm biến miền Nam thành thuộc địa kiểu mới. Trước sự đàn áp tàn
+            bạo bằng luật 10/59, Đảng đã ban hành Nghị quyết Trung ương 15
+            (1/1959), cho phép sử dụng bạo lực cách mạng.
+          </p>
+          <ul>
+            <li>
+              <strong>Phong trào Đồng Khởi (1959 - 1960):</strong> Từ những cuộc nổi
+              dậy lẻ tẻ, phong trào lan rộng khắp miền Nam, làm phá sản chiến lược
+              “Chiến tranh đơn phương” của địch. Bước ngoặt này chuyển cách mạng
+              miền Nam từ thế “giữ gìn lực lượng” sang thế “tiến công”.
+            </li>
+            <li>
+              <strong>Đánh bại “Chiến tranh đặc biệt” (1961 - 1965):</strong> Bằng
+              sự kết hợp ba mũi giáp công (quân sự, chính trị, binh vận), quân và
+              dân ta đã làm phá sản chiến lược dồn dân lập “Ấp chiến lược” của Mỹ.
+            </li>
+          </ul>
+
+          <h3>2. Giai đoạn 1965 - 1968: Đánh bại “Chiến tranh cục bộ” - đỉnh cao của nghệ thuật đòn tâm lý</h3>
+          <p>
+            Sau thất bại trong “Chiến tranh đặc biệt”, Mỹ ồ ạt đưa hàng chục vạn
+            quân viễn chinh vào miền Nam và dùng không quân, hải quân đánh phá ác
+            liệt miền Bắc. Tương quan lực lượng lúc này nghiêng hẳn về phía Mỹ.
+          </p>
+          <ul>
+            <li>
+              <strong>Chủ trương của Đảng:</strong> Tại Hội nghị Trung ương 11 và 12
+              (năm 1965), Đảng nêu cao quyết tâm chiến lược: “Kiên quyết đánh bại
+              cuộc chiến tranh xâm lược của đế quốc Mỹ trong bất kỳ tình huống
+              nào”.
+            </li>
+            <li>
+              <strong>Đỉnh cao Mậu Thân 1968:</strong> Ta không chọn cách đọ hỏa lực
+              trực diện ở các chiến trường rừng núi, mà bất ngờ mở cuộc Tổng tiến
+              công và nổi dậy vào dịp Tết Mậu Thân, đánh thẳng vào các cơ quan sào
+              huyệt của địch tại các đô thị lớn.
+            </li>
+            <li>
+              <strong>Kết quả:</strong> Dù ta chịu tổn thất nhất định, đòn đánh này
+              đã tạo ra cú sốc tâm lý cực mạnh, làm lung lay tận gốc ý chí xâm lược
+              của giới cầm quyền Mỹ. Mỹ buộc phải “phi Mỹ hóa” chiến tranh, ngừng
+              ném bom miền Bắc và ngồi vào bàn đàm phán Paris.
+            </li>
+          </ul>
+
+          <h3>3. Giai đoạn 1969 - 1975: Đánh bại “Việt Nam hóa chiến tranh” và Đại thắng Mùa Xuân</h3>
+          <p>
+            Nixon lên nắm quyền, rút quân Mỹ dần về nước nhưng tăng cường quân đội
+            Sài Gòn theo chiến lược “dùng người Việt đánh người Việt”.
+          </p>
+          <ul>
+            <li>
+              <strong>Điện Biên Phủ trên không (1972):</strong> Nhằm ép ta trên bàn
+              đàm phán, Mỹ dùng siêu pháo đài bay B-52 ném bom hủy diệt Hà Nội, Hải
+              Phòng trong 12 ngày đêm. Bằng sự mưu trí, bộ đội phòng không Việt Nam
+              đã cải tiến cách đánh, bắn rơi 34 chiếc B-52, đập tan thần tượng không
+              lực Hoa Kỳ. Thắng lợi này buộc Mỹ ký Hiệp định Paris (1/1973), hoàn
+              thành mục tiêu “Đánh cho Mỹ cút”.
+            </li>
+            <li>
+              <strong>Đại thắng Mùa Xuân 1975:</strong> Nhận thấy Mỹ suy yếu và không
+              còn khả năng can thiệp trở lại, Hội nghị TW 21 (1973) tiếp tục giương
+              cao ngọn cờ tấn công. Nắm bắt thời cơ, Đảng mở ba chiến dịch then
+              chốt: Tây Nguyên, Huế - Đà Nẵng, và kết thúc bằng chiến dịch Hồ Chí
+              Minh lịch sử. Ngày 30/4/1975, miền Nam hoàn toàn giải phóng, thống
+              nhất đất nước (“Đánh cho Ngụy nhào”).
+            </li>
+          </ul>
+        </section>
+
         <section className="slide" id="tong-quan">
           <p className="section-code">
             <kbd>SEC 02</kbd> <samp>[ TỔNG QUAN CHIẾN LƯỢC ]</samp>
@@ -155,7 +191,6 @@ function App() {
               Sau thất bại trong “Chiến tranh đặc biệt”, Mỹ ồ ạt đưa quân viễn chinh
               vào miền Nam và dùng không quân, hải quân đánh phá miền Bắc.
             </p>
-
             <h3>Chủ trương của Đảng</h3>
             <p>
               Tại Hội nghị Trung ương 11 và 12 (1965), Đảng nêu cao quyết tâm chiến
@@ -163,11 +198,10 @@ function App() {
               trong bất kỳ tình huống nào”, đồng thời chỉ đạo kết hợp chặt chẽ đấu
               tranh quân sự, chính trị và ngoại giao.
             </p>
-
             <h3>Kết quả tiêu biểu</h3>
-            <ul style={{ listStyleType: 'none', paddingLeft: 0 }}>
+            <ul>
               {phaseOneResults.map((item) => (
-                <li key={item} style={{ marginBottom: '10px' }}>{item}</li>
+                <li key={item}>{item}</li>
               ))}
             </ul>
           </article>
@@ -195,14 +229,12 @@ function App() {
               Mỹ rút dần quân viễn chinh, tăng cường quân đội Sài Gòn với âm mưu
               “dùng người Việt đánh người Việt”.
             </p>
-
             <h3>Quá trình đấu tranh (1969 - 1975)</h3>
-            <ul style={{ listStyleType: 'none', paddingLeft: 0 }}>
+            <ul>
               {phaseTwoProcess.map((item) => (
-                <li key={item} style={{ marginBottom: '10px' }}>{item}</li>
+                <li key={item}>{item}</li>
               ))}
             </ul>
-
             <h3>Đại thắng Mùa Xuân 1975</h3>
             <p>
               Sau Hội nghị TW 21 (1973), Đảng quyết định mở Tổng tiến công và nổi
@@ -229,13 +261,12 @@ function App() {
             <p className="section-code">
               <kbd>MỤC 3</kbd> <samp>[ Ý NGHĨA LỊCH SỬ ]</samp>
             </p>
-            <h2>3. Ý nghĩa lịch sử (1954 - 1975)</h2>
-            {meanings.map((item) => (
-              <div key={item.title} className="meaning-item" style={{ marginBottom: '16px' }}>
-                <h3 style={{ marginBottom: '8px' }}>{item.title}</h3>
-                <p>{item.detail}</p>
-              </div>
-            ))}
+            <h2>3. Ý nghĩa lịch sử</h2>
+            <ul>
+              {meanings.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
           </article>
 
           <article className="card-block">
@@ -243,9 +274,9 @@ function App() {
               <kbd>LESSONS</kbd> <samp>[ KINH NGHIỆM LÃNH ĐẠO ]</samp>
             </p>
             <h2>Kinh nghiệm lãnh đạo (Bài học lịch sử)</h2>
-            <ul style={{ listStyleType: 'none', paddingLeft: 0 }}>
+            <ul>
               {lessons.map((item) => (
-                <li key={item} style={{ marginBottom: '10px' }}>{item}</li>
+                <li key={item}>{item}</li>
               ))}
             </ul>
           </article>
@@ -264,101 +295,6 @@ function App() {
           </p>
         </section>
 
-        <section className="slide closing" id="chu-de-bo-sung">
-          <p className="section-code">
-            <kbd>TOPIC+</kbd> <samp>[ BẢN BỔ SUNG CHUYÊN SÂU ]</samp>
-          </p>
-          <h2>
-            CHỦ ĐỀ: Một nước Việt Nam chống lại đế quốc hùng mạnh - bài học về lấy thế thắng lực và tinh thần quyết thắng
-          </h2>
-          <p>
-            Bản bổ sung này được tóm tắt theo dạng ngắn gọn: mỗi mục gồm một ý
-            chính và các ý phụ đủ dùng để thuyết trình, dễ nhớ và dễ chuyển ý.
-          </p>
-
-          <div className="deep-stack">
-            <article className="card-block">
-              <h3>1. Đặt vấn đề: Hiệu ứng David và Goliath trong thời đại mới</h3>
-              <p>
-                Mục này làm rõ bản chất của “thế yếu” trong bối cảnh hiện đại và
-                lý do vì sao tâm lý, tư duy chiến lược và khả năng tái định nghĩa
-                cuộc chơi quan trọng không kém nguồn lực ban đầu.
-              </p>
-              <ul style={{ listStyleType: 'none', paddingLeft: 0 }}>
-                {davidGoliathPerspective.map((item) => (
-                  <li key={item} style={{ marginBottom: '10px' }}>{item}</li>
-                ))}
-              </ul>
-            </article>
-
-            <article className="card-block">
-              <h3>2. Cơ sở lý thuyết: Giải mã nghệ thuật “Lấy thế thắng lực” (1965 - 1975)</h3>
-              <p>
-                Các dẫn chứng lịch sử dưới đây cho thấy Đảng đã lựa chọn đúng điểm
-                đột phá để chuyển bất lợi về vật chất thành ưu thế về thế trận,
-                ý chí và tính chính nghĩa.
-              </p>
-              <ul style={{ listStyleType: 'none', paddingLeft: 0 }}>
-                {giantOpponentLessons.map((item) => (
-                  <li key={item} style={{ marginBottom: '10px' }}>{item}</li>
-                ))}
-              </ul>
-            </article>
-
-            <article className="card-block">
-              <h3>3. Cơ sở vận dụng: Thuật toán đối đầu với “Gã khổng lồ” trong thực tiễn</h3>
-              <p>
-                Từ bài học lịch sử, có thể chuyển hóa thành mô hình hành động cụ
-                thể cho doanh nghiệp nhỏ, người đi làm và người học trong môi trường
-                cạnh tranh bất cân xứng.
-              </p>
-              <ul style={{ listStyleType: 'none', paddingLeft: 0 }}>
-                {practicalApplications.map((item) => (
-                  <li key={item} style={{ marginBottom: '10px' }}>{item}</li>
-                ))}
-              </ul>
-            </article>
-
-            <article className="card-block">
-              <h3>4. Giải pháp và bài học: Nguyên tắc hành động 3T (Trí - Thế - Tâm)</h3>
-              <p>
-                Khung 3T là nguyên tắc ngắn gọn, áp dụng trực tiếp cho học tập,
-                công việc và khởi nghiệp khi đối mặt thách thức lớn.
-              </p>
-
-              <ul className="three-t-list" style={{ listStyleType: 'none', paddingLeft: 0 }}>
-                {threeTFramework.map((item) => (
-                  <li key={item.title} style={{ marginBottom: '16px' }}>
-                    <strong style={{ display: 'block', marginBottom: '8px', color: '#d32f2f' }}>
-                      {item.title}
-                    </strong>
-                    <ul style={{ listStyleType: 'none', paddingLeft: 0 }}>
-                      {item.points.map((point, idx) => (
-                        <li
-                          key={idx}
-                          style={{
-                            paddingLeft: '12px',
-                            borderLeft: '3px solid #ddd',
-                            marginBottom: '8px',
-                            color: '#555'
-                          }}
-                        >
-                          {point}
-                        </li>
-                      ))}
-                    </ul>
-                  </li>
-                ))}
-              </ul>
-
-            </article>
-          </div>
-
-          <p className="closing-note final-thesis">
-            Kẻ mạnh không phải lúc nào cũng thắng; người chiến thắng mới là kẻ mạnh thực sự. Di sản 1954 - 1975 khẳng định: khi có mục tiêu
-            chính nghĩa, chiến lược tạo thế khôn ngoan và tinh thần không khuất phục, mọi giới hạn về nguồn lực đều có thể bị phá vỡ.
-          </p>
-        </section>
       </main>
     </div>
   )
