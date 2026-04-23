@@ -5,6 +5,11 @@ import dienBienPhuTrenKhong from './image/dienbienphutrenkhong.jpg'
 import haiMienVietNam from './image/2 mien vietnam.png'
 import hiepDinhParis from './image/hiepdinhparis.jpg'
 import keHoachVietNamHoa from './image/kehoachvietnamhoachientranh.jpg'
+import chienTranhDacBiet from './image/chien tranh dac biet.jpg'
+import daiThangMuaXuan1975 from './image/dait thang mua xuan 1975.jpg'
+import dienBienPhuTrenKhong2 from './image/dienbienphutrenkhong2.jpg'
+import mauThan1968 from './image/mauthan1968.jpg'
+import phongTraoDongKhoi from './image/Phong_trào_Đồng_khởi.png'
 
 const phaseOneResults = [
   '1954 - 1965: chuyển thế chiến lược, từ Đồng Khởi đến đánh bại “Chiến tranh đặc biệt”.',
@@ -105,6 +110,16 @@ function App() {
               dân ta đã làm phá sản chiến lược dồn dân lập “Ấp chiến lược” của Mỹ.
             </li>
           </ul>
+          <div className="image-grid two">
+            <figure>
+              <img src={phongTraoDongKhoi} alt="Phong trào Đồng Khởi lan rộng ở miền Nam giai đoạn 1959-1960" />
+              <figcaption>Phong trào Đồng Khởi tạo bước chuyển từ thế giữ gìn lực lượng sang thế tiến công.</figcaption>
+            </figure>
+            <figure>
+              <img src={chienTranhDacBiet} alt="Quân dân miền Nam trong giai đoạn đấu tranh chống Chiến tranh đặc biệt" />
+              <figcaption>Đánh bại chiến lược Chiến tranh đặc biệt và phá thế Ấp chiến lược của Mỹ.</figcaption>
+            </figure>
+          </div>
 
           <h3>2. Giai đoạn 1965 - 1968: Đánh bại “Chiến tranh cục bộ” - đỉnh cao của nghệ thuật đòn tâm lý</h3>
           <p>
@@ -132,6 +147,16 @@ function App() {
               ném bom miền Bắc và ngồi vào bàn đàm phán Paris.
             </li>
           </ul>
+          <div className="image-grid two">
+            <figure>
+              <img src={mauThan1968} alt="Tổng tiến công và nổi dậy Tết Mậu Thân 1968 tại đô thị miền Nam" />
+              <figcaption>Mậu Thân 1968 tạo cú sốc chiến lược, làm lung lay ý chí xâm lược của Mỹ.</figcaption>
+            </figure>
+            <figure>
+              <img src={keHoachVietNamHoa} alt="Bộ máy chỉ huy Mỹ triển khai chiến lược quân sự tại Việt Nam" />
+              <figcaption>Bối cảnh Mỹ leo thang chiến tranh và sự chuyển dịch các chiến lược quân sự.</figcaption>
+            </figure>
+          </div>
 
           <h3>3. Giai đoạn 1969 - 1975: Đánh bại “Việt Nam hóa chiến tranh” và Đại thắng Mùa Xuân</h3>
           <p>
@@ -156,6 +181,16 @@ function App() {
               nhất đất nước (“Đánh cho Ngụy nhào”).
             </li>
           </ul>
+          <div className="image-grid two">
+            <figure>
+              <img src={dienBienPhuTrenKhong2} alt="Xác máy bay B-52 bị bắn rơi trong chiến dịch Điện Biên Phủ trên không năm 1972" />
+              <figcaption>Điện Biên Phủ trên không 1972: đập tan thần tượng không lực Hoa Kỳ.</figcaption>
+            </figure>
+            <figure>
+              <img src={daiThangMuaXuan1975} alt="Không khí chiến thắng và giải phóng miền Nam trong Đại thắng Mùa Xuân 1975" />
+              <figcaption>Đại thắng Mùa Xuân 1975 kết thúc thắng lợi cuộc kháng chiến chống Mỹ.</figcaption>
+            </figure>
+          </div>
         </section>
 
         <section className="slide" id="tong-quan">
